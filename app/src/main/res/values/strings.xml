@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TestKtra</string>
+    <string name="title_login">LOGIN</string>
+    <string name="title_login_username">Username:</string>
+    <string name="title_login_password">Password:</string>
+    <string name="title_login_saveinfo">Save Login Infor</string>
+    <string name="title_exit">EXIT</string>
+    <string name="title_confirm_exit_title">CONFIRM EXIT</string>
+    <string name="title_confirm_exit_message">Are you sure you want to exit?</string>
+    <string name="title_confirm_exit_ok">Ok</string>
+    <string name="title_confirm_exit_cancel">Cancel</string>
+    <string name="login_failed">Login failed! Check your username/password</string>
+    <string name="title_activity_category_management">CategoryManagementActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="title_categoryId">Category ID:</string>
+    <string name="title_category_name">Category Name:</string>
+    <string name="title_product_id">Product ID:</string>
+    <string name="title_product_name">Product Name:</string>
+    <string name="title_unit_price">Unit Price:</string>
+    <string name="title_image_url">ImageUrl:</string>
+    <string name="title_save">SAVE</string>
+    <string name="title_delete">DELETE</string>
+    <string name="title_cancel">CANCEL</string>
+    <string name="title_auto_id">Auto ID</string>
+    <string name="title_save_successfull">Save Successfull</string>
+    <string name="title_new_product">New Product</string>
+</resources>
