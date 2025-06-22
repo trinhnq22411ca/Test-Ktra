@@ -37,10 +37,10 @@ public class ProductConnector {
 
     public void updateProduct(Product product) {
         ContentValues values = new ContentValues();
-        values.put("productName", product.getProductName());
-        values.put("unitPrice", product.getUnitPrice());
-        values.put("imageLink", product.getImageLink());
-        values.put("categoryID", product.getCategoryID());
+        values.put("ProductName", product.getProductName());
+        values.put("UnitPrice", product.getUnitPrice());
+        values.put("ImageLink", product.getImageLink());
+        values.put("CategoryID", product.getCategoryID());
 
         database.update("Product", values, "productID = ?", new String[]{String.valueOf(product.getProductID())});
     }
@@ -50,10 +50,10 @@ public class ProductConnector {
     }
     public void addProduct(Product product) {
         ContentValues values = new ContentValues();
-        values.put("productName", product.getProductName());
-        values.put("unitPrice", product.getUnitPrice());
-        values.put("imageLink", product.getImageLink());
-        values.put("categoryID", product.getCategoryID());
+        values.put("ProductName", product.getProductName());
+        values.put("UnitPrice", product.getUnitPrice());
+        values.put("ImageLink", product.getImageLink());
+        values.put("CategoryID", product.getCategoryID());
 
         database.insert("Product", null, values);
     }
